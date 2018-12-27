@@ -1,2 +1,0 @@
-This path is used to storage the system matrix applied in the algorithms. We do not provide download link of the matrix since it is as large as 2GB for 256*256 reconstruction problem. 
-Please generate the system matrix in your local by running the 'iterative_reconstruction.m' or 'FBP_reconstruction.m' file in the src path. This should be done before training the deep neural net.   
