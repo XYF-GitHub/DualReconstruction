@@ -20,7 +20,7 @@ The code is currently based on python 3.6, [Tensorflow](https://github.com/tenso
     ```bash
     python main.py --dataset="../data/training_set/" --mode="train" --model_name="your-saved-model-result-name" --lr = 0.0001 --epoch=30 --model_step=1000 --batch_size=1
     ```
-    After finishing the training process or downloading the pre-trained model, you can test the trained model via the cmd:
+      After finishing the training process or downloading the pre-trained model, you can test the trained model via the cmd:
      ```bash
     python main.py --dataset="../data/testing_set/" --mode="feedforward" --model_name="your-saved-model-result-name" --checkpoint="../model/your-saved-model-result-name"
     ```
